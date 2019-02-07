@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IndoorNavigation</string>
+    <string name="select" translatable="false">SELECT USER TYPE</string>
+    <string name="guide" translatable="false">USER MANUAL</string>
+    <string name="tourist" translatable="false">TOURIST</string>
+    <string name="vip" translatable="false">SPECIAL USER</string>
+    <string name="next" translatable="false">NEXT   STEP</string>
+</resources>

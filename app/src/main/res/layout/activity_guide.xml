@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#a8d4e9"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:background="@drawable/layoutboard"
+        android:layout_margin="20dp"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="98dp"
+                android:gravity="center"
+                android:layout_gravity="bottom"
+                >
+                <Button
+                    android:id="@+id/next"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ring"
+                    android:text="@string/next"
+                    android:textColor="#555"/>
+            </LinearLayout>
+            <me.relex.circleindicator.CircleIndicator
+                android:id="@+id/indicator"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="48dp" />
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>
